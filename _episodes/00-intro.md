@@ -7,7 +7,8 @@ questions:
 objectives:
 - "Understand how to organize data so computers can make the best use of the data"
 keypoints:
-- "Organizing your data tables according to tidy data principles will make them easier for you and others to use for analysis."
+- Spreadsheets serve an important function in most work & research environments.
+- Spreadsheets work best for certain tasks, and need to be formatted in a specific way  to serve that function.
 ---
 
 > ## Things You’ll Need To Complete This Tutorial
