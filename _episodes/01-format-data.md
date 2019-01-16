@@ -154,9 +154,9 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >    one in Mozambique and the other in Tanzania. They both structured their
 >    data tables in a different way. Now, you're the person in charge of this
 >    project and you want to be able to start analyzing the data.
-> 4. With the person next to you, identify what is wrong with this spreadsheet.
->    Discuss the steps you would need to take to clean up the two tabs, and to
->    put them all together in one spreadsheet.
+> 4. Start by identifying three things this data set does well, that you would like to preserve in future changes. 
+> 5. Your first question is to compare the number of poultry held in the Mozambique sample to the Tanzania sample. With the person next to you, take 2 minutes and find the total for each country. 
+
 >
 > **Important** Do not forget our first piece of advice, to create a new file
 > (or tab) for the cleaned data, never modify your original (raw) data.
@@ -166,12 +166,20 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >
 > > ## Solution
 > >
-> > - Take about 10 minutes to work on this exercise.
+> > - Take about 3 minutes to work and 3 minutes to discuss. [Insert answer]. Discuss challenges in comparing the different formats. 
 > > - All the mistakes listed in [the next episode](../02-common-mistakes) are
 > > present in the messy dataset. If this
 > > exercise is done during a workshop, ask people what they saw as wrong with
 > > the data. As they bring up different points, you can refer to [the next episode](../02-common-mistakes)
 > > or expand a bit on the point they brought up.
+> {: .solution}
+{: .challenge}
+>
+> ## Exercise
+> Discuss with a partner. Why do you think the two countries sheets were different? What factors affect data entry? 
+>
+> > ## Solution
+> Take 3 minutes to discuss and 3 to discuss as a group. Data is contextual. How people gather it matters. Different people gather it! This  sounds  obvious, but data is  a representation of reality in this context: the  person may have  counted the  poultry, or  they may  have had self-reported data  from someone working on a dowry, or they  may have  been told "yes"  rather than a  number, and been unable to  get different  information. 
 > {: .solution}
 {: .challenge}
 
