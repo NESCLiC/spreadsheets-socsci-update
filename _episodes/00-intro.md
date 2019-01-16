@@ -46,6 +46,12 @@ Although it is not open source software it is very widely available and used.
 Free spreadsheet programs such as LibreOffice are available.
 The functionality of these may differ from Excel, but in general they can be used to perform similar tasks.
 
+## What are spreadsheets good for? 
+
+One of the earliest uses for spreadsheets was for accounting worksheets, and it continues to be true that spreadsheets are 
+particularly useful for finance. In general, spreadsheets have information - in either numerical or string form - in a tabular format. The sheet is composed of a grid of cells, generally with either data or formulas in the cells (although programs like Excel, for example, can also create visualizations). Formulas refer to existing values in other cells to compute new values. Formulas say how to mechanically compute new values from existing values. 
+
+
 ## Problems with Spreadsheets
 
 Spreadsheets are good for data entry,
