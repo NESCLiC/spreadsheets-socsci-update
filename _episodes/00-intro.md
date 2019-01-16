@@ -88,9 +88,8 @@ Nevertheless it is important to be aware of the limitations these data may prese
 {: .callout}
 
 > ## Exercise
-> - How many people have used spreadsheets in their research?
-> - How many people have accidentally done something that made them
-> frustrated or sad?
+> - Have you seen a colleague do something that made you think they were a spreadsheet wizard? What was it? 
+
 {: .challenge}
 
 
