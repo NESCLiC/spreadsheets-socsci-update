@@ -52,7 +52,7 @@ One of the earliest uses for spreadsheets was for accounting worksheets, and it 
 particularly useful for finance. In general, spreadsheets have information - in either numerical or string form - in a tabular format. The sheet is composed of a grid of cells, generally with either data or formulas in the cells (although programs like Excel, for example, can also create visualizations). Formulas refer to existing values in other cells to compute new values. Formulas say how to mechanically compute new values from existing values. 
 
 
-## Problems with Spreadsheets
+## Common Challenges with Spreadsheets
 
 Spreadsheets are good for data entry,
 but in reality we tend to use spreadsheet programs for much more than data entry.
@@ -93,9 +93,9 @@ Nevertheless it is important to be aware of the limitations these data may prese
 {: .challenge}
 
 
-### Using Spreadsheets for Data Entry and Cleaning
+## Using Spreadsheets for Data Entry and Cleaning
 
-However, there are circumstances where you might want to use a spreadsheet 
+There are circumstances where you might want to use a spreadsheet 
 program to produce “quick and dirty” calculations or figures, and some of 
 these features can be used in data cleaning, prior to importation into a 
 statistical analysis program. We will show you how to use some features of 
