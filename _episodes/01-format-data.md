@@ -44,7 +44,7 @@ data.
 
 ## Spreadsheet Basics
 
-You may have used spreadsheets in your research, work, or even personal life and not really considered how they work or why it is important to thoughtfully think about how they are formatted. Spreadsheet software (like Excel) allows us to use color, notes, merged cells, and other kinds of formatting to make the data human-readable, but this makes it harder or impossible for the computer to understand. In this session we will talk about some common data formatting issues and how we can avoid them so that our data is as usable and reusable as possible.
+You may have used spreadsheets in your research, work, or even personal life and not really considered how they work or why it is important to carefully think about how they are formatted. Spreadsheet software (like Excel) allows us to use color, notes, merged cells, and other kinds of formatting to make the data human-readable, but this makes it harder or impossible for the computer to understand. In this session we will talk about some common data formatting issues and how we can avoid them so that our data is as usable and reusable as possible.
 
 ### Components to know about
 
@@ -256,12 +256,24 @@ Metadata exists at multiple levels, some of which are created by the software yo
 
 ### Study-Level Metadata
 
-Metadata at the study-level will tell others who use your data about the broader context in which the data were collected. This includes documentation like a description of your research question(s), the instruments and protocols used to collect the data, the time period over which you completed the study, and any team members involved. It also includes details about how different datasets that were part of the study were used in combination, where those datasets came from This typically exists as a code-book.
+Metadata at the study-level will tell others who use your data about the broader context in which the data were collected. This includes documentation like a description of your research question(s), the time period over which you completed the study, and any team members involved. It also includes details about the instruments and protocols used to collect the data, how different datasets that were part of the study were used in combination, and any codes that were used in the data. This information is usually part of the data dictionary or code-book.
 
 ### File-Level Metadata
 
-### Variable-Level Metadata
+File-level metadata is the key to being able to find and access your data without having to open and close half of the things on your hard-drive to get what you need. At the most basic level, it includes how you structure and name your folders and files. This is probably something you do as the need arises - you get a new dataset and decided whether to put it in an existing folder or to create a new one. As your project goes on and your files proliferate it becomes even more important to have a plan for keeping track of everything, and if you create that plan at the beginning you won't have to move things around later. 
 
+A README file, a text document where you write down your folder and file naming conventions, will help you and whoever needs to use the data after you understand which files to use. The following are some things to consider when creating your README file:
+
+- Come up with a naming convention and be consistent
+- Don't use special characters ~ ! @ # $ % ^ & * ( ) ; < > ? , [ ] { } ' " |
+- Use capitals (example: MyFileName) or underscores (example: my_file_name) instead of spaces
+- Make sure your file names reflect their content (think about what someone else would need to know in order to find and make sense of your files)
+- Use date format YYYYMMDD or YYYY-MM-DD (ISO 8601)
+- If the system does not version your files, include a version number. Use "v" followed by at least 2 digits for proper sorting (example: v01, v02... v10, v11)
+- Keep file names under 32 characters
+- Keep folder levels to 3 or 4
+
+### Variable-Level Metadata
 
 
 <!-- Recording data about your data (“metadata”) is essential. You may be on intimate
