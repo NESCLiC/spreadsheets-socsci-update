@@ -62,9 +62,9 @@ sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a littl
 ## Exercise
 >
 > Consider this table:
-
+>
 > ![multiple-info example](../fig/multiple-info.png)
-
+>
 > If we consider the best practices we talked about above one problem is that number of >livestock and type of livestock are in the same field. So, if they wanted to
 > look at the average number of livestock owned, or the average number of each type
 > of livestock, it would be hard to do this using this data setup. If instead we put the >count of each type of livestock in it's own column, this would make analysis
@@ -75,18 +75,18 @@ sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a littl
 >
 > > ## Solution
 > >The example above should look like this:
-
+> >
 > >![single-info example](../fig/single-info.png)
-
+> >
 > >Notice that this now allows us to make statements about the number of each type of
 > >animal that a farmer owns, while still allowing us to say things about the
 > >total number of livestock. All we need to do is sum the values in each row to
 > >find a total. We'll be learning how to do this computationally and reproducibly
 > >later in this workshop.
 > >Thus, the example above should look like this:
-
+> >
 > >![single-info example](../fig/single-info.png)
-
+> >
 > >Notice that this now allows us to make statements about the number of each type of
 > >animal that a farmer owns, while still allowing us to say things about the
 > >total number of livestock. All we need to do is sum the values in each row to
@@ -233,10 +233,6 @@ We're going to take a messy version of the SAFI data and describe how we would c
 > > the data. As they bring up different points, you can refer to [the next episode](../02-common-mistakes)
 > > or expand a bit on the point they brought up.
 >> Data is contextual. How people gather it matters. Different people gather it! This  sounds  obvious, but data is  a representation of reality in this context: the  person may have  counted the  poultry, or  they may  have had self-reported data  from someone working on a dowry, or they  may have  been told "yes"  rather than a  number, and been unable to  get different  information. 
-> {: .solution}
-{: .challenge}
->
-> 
 > {: .solution}
 {: .challenge}
 
