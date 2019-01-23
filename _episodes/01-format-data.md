@@ -256,26 +256,17 @@ Metadata exists at multiple levels, some of which are created by the software yo
 
 ### Study-Level Metadata
 
-Metadata at the study-level will tell others who use your data about the broader context in which the data were collected. This includes documentation like a description of your research question(s), the time period over which you completed the study, and any team members involved. It also includes details about the instruments and protocols used to collect the data, how different datasets that were part of the study were used in combination, and any codes that were used in the data. This information is usually part of the data dictionary or code-book.
+Metadata at the study-level will tell others who use your data about the broader context in which the data were collected. This includes documentation like a description of your research question(s), the time period over which you completed the study, and any team members involved. It also includes details about the instruments and protocols used to collect the data, how different datasets that were part of the study were used in combination, and any steps you took to clean up or manipulate the data. This information is usually part of the code-book, or it can be in extra files with the code you used .
 
 ### File-Level Metadata
 
 File-level metadata is the key to being able to find and access your data without having to open and close half of the things on your hard-drive to get what you need. At the most basic level, it includes how you structure and name your folders and files. This is probably something you do as the need arises - you get a new dataset and decided whether to put it in an existing folder or to create a new one. As your project goes on and your files proliferate it becomes even more important to have a plan for keeping track of everything, and if you create that plan at the beginning you won't have to move things around later. 
 
-A README file, a text document where you write down your folder and file naming conventions, will help you and whoever needs to use the data after you understand which files to use. The following are some things to consider when creating your README file:
-
-- Come up with a naming convention and be consistent
-- Keep file names under 32 characters
-- Keep folder levels to 3 or 4
-- Don't use special characters in names ~ ! @ # $ % ^ & * ( ) ; \`< > ? , \[ \] { } ' " \|
-- Use capitals (example: MyFileName) or underscores (example: my_file_name) instead of spaces
-- Make sure your file names reflect their content (think about what someone else would need to know in order to find and make sense of your files)
-- Use date format YYYYMMDD or YYYY-MM-DD (ISO 8601)
-- If the system does not version your files, include a version number. Use "v" followed by at least 2 digits for proper sorting (example: v01, v02... v10, v11)
-
+A README file, a text document where you write down your folder and file naming conventions, will help you and whoever needs to use the data after you understand which files to use. You can get tips on naming your files and folders from the Center for Open Science here: http://help.osf.io/m/bestpractices/l/609932-file-naming. 
 
 ### Variable-Level Metadata
 
+The bulk of your code book will contain metadata about the variables and observations in your dataset(s). This includes things like any codes that you used in your data (even if you think they are obvious you should still document them!), the units of each variable (for example, is it currency, total numbers, percentages, etc.), or which survey questions relate to which columns in your dataset. More information on making a data dictionary from the Center for Open Science can be found here: http://help.osf.io/m/bestpractices/l/618767-how-to-make-a-data-dictionary. 
 
 
 <!-- Recording data about your data (“metadata”) is essential. You may be on intimate
