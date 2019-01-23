@@ -129,4 +129,8 @@ example data collected in January of multiple years with data collected in Febru
 Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
 
+## Accidental dates
+
+You'll find that sometimes you will enter a value that is not a date and Excel will convert it to a date incorrectly. For example, if you are putting in times without a label and write "9-10," many versions of excel will convert it to September 10th. You may be familiar with the Format function in Excel; if we convert this back to regular, however, you'll see the 1900-system code discussed above. If you try formattting it preemptively to general, that will get overridden. There are a few options: you can pre-emptively format the box to Text, so it is not recognized as numbers. You could write 8am-9am or 8-9am to be recognized as time. The most detailed interusable option if this is important data is to have separate columns for start and end time and to use 2400 hour time in those columns.  
+
 {% include links.md %}
