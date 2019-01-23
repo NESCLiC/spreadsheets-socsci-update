@@ -248,15 +248,28 @@ We're going to take a messy version of the SAFI data and describe how we would c
 > Statistical Software. <http://www.jstatsoft.org/v59/i10>
 {: .callout}
 
-### Metadata
+## Metadata
 
-Recording data about your data (“metadata”) is essential. You may be on intimate
+At the most basic level, **metadata** are data about data. If created thoughtfully, metadata will provide whoever is using the data in future (including you!) with key pieces of information about who, what, when, where, why, and how the data were created. Appropriate metadata means that other people can have confidence when they reuse your data or replicate your work. 
+
+Metadata exists at multiple levels, some of which are created by the software you are using to create or keep track of your files and some of which you will need to create yourself.
+
+### Study-Level Metadata
+
+Metadata at the study-level will tell others who use your data about the broader context in which the data were collected. This includes documentation like a description of your research question(s), the instruments and protocols used to collect the data, the time period over which you completed the study, and any team members involved. It also includes details about how different datasets that were part of the study were used in combination, where those datasets came from This typically exists as a code-book.
+
+### File-Level Metadata
+
+### Variable-Level Metadata
+
+
+
+<!-- Recording data about your data (“metadata”) is essential. You may be on intimate
 terms with your dataset while you are
 collecting and analysing it, but the chances that you will still remember
 the exact wording of the question you asked about your
 informants' water use (the data recorded in the column `water use`), for
 example, are slim.  
-
 As well, there are many reasons other people may want to examine or use your data - to understand your findings, to verify your findings,
 to review your submitted publication, to replicate your results, to design a
 similar study, or even to archive your data for access and
@@ -265,7 +278,6 @@ understanding their meaning is a job for human beings. The
 importance of documenting your data during the collection and analysis phase of
 your research cannot be overestimated, especially if your
 research is going to be part of the scholarly record.  
-
 However, metadata should not be contained in the data file itself. Unlike a table
 in a paper or a supplemental file, metadata (in the
 form of legends) should not be included in a data file since this information is
@@ -277,7 +289,6 @@ data file. Because metadata files are free text format,
 they also allow you to encode comments, units, information about how null values
 are encoded, etc. that are important to document but can
 disrupt the formatting of your data file.  
-
 Some of this information may be familiar to learners who conduct analyses on
 survey data or other data sets that come with codebooks. Codebooks will often
 describe the way a variable has been constructed, what prompt was associated with
@@ -287,7 +298,6 @@ Looking at an entry for a particular variable, such as
 [the variable `SEX`](https://gssdataexplorer.norc.org/variables/81/vshow), provides
 valuable information about what survey waves the variable covers, and the meaning
 of particular values.
-
 Additionally, file or database level metadata describes how files that make up
 the dataset relate to each other; what format are they are
 in; and whether they supersede or are superseded by previous files. A
