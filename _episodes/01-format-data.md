@@ -265,15 +265,17 @@ File-level metadata is the key to being able to find and access your data withou
 A README file, a text document where you write down your folder and file naming conventions, will help you and whoever needs to use the data after you understand which files to use. The following are some things to consider when creating your README file:
 
 - Come up with a naming convention and be consistent
-- Don't use special characters ~ ! @ # $ % ^ & * ( ) ; < > ? , [ ] { } ' " |
+- Keep file names under 32 characters
+- Keep folder levels to 3 or 4
+- Don't use special characters in names ~ ! @ # $ % ^ & * ( ) ; \`< > ? , \[ \] { } ' " |
 - Use capitals (example: MyFileName) or underscores (example: my_file_name) instead of spaces
 - Make sure your file names reflect their content (think about what someone else would need to know in order to find and make sense of your files)
 - Use date format YYYYMMDD or YYYY-MM-DD (ISO 8601)
 - If the system does not version your files, include a version number. Use "v" followed by at least 2 digits for proper sorting (example: v01, v02... v10, v11)
-- Keep file names under 32 characters
-- Keep folder levels to 3 or 4
+
 
 ### Variable-Level Metadata
+
 
 
 <!-- Recording data about your data (“metadata”) is essential. You may be on intimate
@@ -314,7 +316,7 @@ Additionally, file or database level metadata describes how files that make up
 the dataset relate to each other; what format are they are
 in; and whether they supersede or are superseded by previous files. A
 folder-level readme.txt file is the classic way of accounting for
-all the files and folders in a project.  
+all the files and folders in a project.-->  
 
 Metadata are most useful when they follow a standard. For example, the
 [Data Documentation Initiative (DDI)](http://www.ddialliance.org) provides a
