@@ -170,15 +170,6 @@ lesson, and in the other Social Sciences lessons, is the [Studying African
 Farmer-led Irrigation (SAFI)
 Dataset](http://www.datacarpentry.org/socialsci-workshop/data).
 
-<!--> The data used in these lessons are taken from interviews of farmers in two
-> countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These
-> interviews were conducted between November 2016 and June 2017 and probed
-> household features (e.g. construction materials used, number of household
-> members), agricultural practices (e.g. water usage), and assets (e.g. number
-> and types of livestock).
->
--->
-
 The dataset was compiled from interviews of farmers in two 
 countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These 
 interviews were conducted between November 2016 and June 2017 and probed 
