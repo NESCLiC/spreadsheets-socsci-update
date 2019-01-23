@@ -59,7 +59,7 @@ Cells are the smallest component of a spreadsheet. A cell represents the data in
 We're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a little later, but for now we will look at an excerpt as an example.
-## Exercise
+>## Exercise
 >
 > Consider this table:
 >
