@@ -60,6 +60,7 @@ We're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a little later, but for now we will look at an excerpt as an example.
 ## Exercise
+>
 > Consider this table:
 
 > ![multiple-info example](../fig/multiple-info.png)
@@ -177,19 +178,11 @@ Dataset](http://www.datacarpentry.org/socialsci-workshop/data).
 > and types of livestock).
 >
 -->
-The dataset was compiled from interviews of farmers in two
-countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These
-interviews were conducted between November 2016 and June 2017 and probed
-household features (e.g. construction materials used, number of household
-members), agricultural practices (e.g. water usage), and assets (e.g. number
-and types of livestock).
-This is a real dataset, however, it has been simplified for this workshop. If
-you're interested in exploring the full dataset further, but you can download
-it from Figshare and work with it using exactly the same tools we’ll learn
-about today.
-For more information about the dataset and to download it from Figshare, check
-out the [Social Sciences workshop data
-page](http://www.datacarpentry.org/socialsci-workshop/data).
+The dataset was compiled from interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock).
+
+This is a real dataset, however, it has been simplified for this workshop. If you're interested in exploring the full dataset further, but you can download it from Figshare and work with it using exactly the same tools we’ll learn about today.
+
+For more information about the dataset and to download it from Figshare, check out the [Social Sciences workshop data page](http://www.datacarpentry.org/socialsci-workshop/data).
 
 
 > ## LibreOffice Users
