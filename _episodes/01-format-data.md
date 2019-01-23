@@ -59,38 +59,38 @@ Cells are the smallest component of a spreadsheet. A cell represents the data in
 We're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a little later, but for now we will look at an excerpt as an example.
-> ## Exercise
->Consider this table:
+## Exercise
+> Consider this table:
 
->![multiple-info example](../fig/multiple-info.png)
+> ![multiple-info example](../fig/multiple-info.png)
 
->If we consider the best practices we talked about above one problem is that number of >livestock and type of livestock are in the same field. So, if they wanted to
->look at the average number of livestock owned, or the average number of each type
->of livestock, it would be hard to do this using this data setup. If instead we put the >count of each type of livestock in it's own column, this would make analysis
->much easier. The rule of thumb, when setting up a datasheet, is that each
->variable (in this case, each type of livestock) should have its own column,
->each observation should have its own row, and each cell should contain only a
->single value. 
-
+> If we consider the best practices we talked about above one problem is that number of >livestock and type of livestock are in the same field. So, if they wanted to
+> look at the average number of livestock owned, or the average number of each type
+> of livestock, it would be hard to do this using this data setup. If instead we put the >count of each type of livestock in it's own column, this would make analysis
+> much easier. The rule of thumb, when setting up a datasheet, is that each
+> variable (in this case, each type of livestock) should have its own column,
+> each observation should have its own row, and each cell should contain only a
+> single value. 
+>
 > > ## Solution
->>The example above should look like this:
+> >The example above should look like this:
 
->>![single-info example](../fig/single-info.png)
+> >![single-info example](../fig/single-info.png)
 
->>Notice that this now allows us to make statements about the number of each type of
->>animal that a farmer owns, while still allowing us to say things about the
->>total number of livestock. All we need to do is sum the values in each row to
->>find a total. We'll be learning how to do this computationally and reproducibly
->>later in this workshop.
->>Thus, the example above should look like this:
+> >Notice that this now allows us to make statements about the number of each type of
+> >animal that a farmer owns, while still allowing us to say things about the
+> >total number of livestock. All we need to do is sum the values in each row to
+> >find a total. We'll be learning how to do this computationally and reproducibly
+> >later in this workshop.
+> >Thus, the example above should look like this:
 
->>![single-info example](../fig/single-info.png)
+> >![single-info example](../fig/single-info.png)
 
->>Notice that this now allows us to make statements about the number of each type of
->>animal that a farmer owns, while still allowing us to say things about the
->>total number of livestock. All we need to do is sum the values in each row to
->>find a total. We'll be learning how to do this computationally and reproducibly
->>later in this workshop.
+> >Notice that this now allows us to make statements about the number of each type of
+> >animal that a farmer owns, while still allowing us to say things about the
+> >total number of livestock. All we need to do is sum the values in each row to
+> >find a total. We'll be learning how to do this computationally and reproducibly
+> >later in this workshop.
 > > 
 > {: .solution}
 {: .challenge}
@@ -162,7 +162,7 @@ find a total. We'll be learning how to do this computationally and reproducibly
 later in this workshop.
 -->
 <!-- > ## Introduce the Data -->
-> ## The Data for this Exercise
+## The Data for this Exercise
 >
 > The dataset that will be used in this
 > lesson, and in the other Social Sciences lessons, is the [Studying African
