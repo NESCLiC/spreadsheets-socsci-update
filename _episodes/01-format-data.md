@@ -267,7 +267,7 @@ A README file, a text document where you write down your folder and file naming 
 - Come up with a naming convention and be consistent
 - Keep file names under 32 characters
 - Keep folder levels to 3 or 4
-- Don't use special characters in names ~ ! @ # $ % ^ & * ( ) ; \`< > ? , \[ \] { } ' " |
+- Don't use special characters in names ~ ! @ # $ % ^ & * ( ) ; \`< > ? , \[ \] { } ' " \|
 - Use capitals (example: MyFileName) or underscores (example: my_file_name) instead of spaces
 - Make sure your file names reflect their content (think about what someone else would need to know in order to find and make sense of your files)
 - Use date format YYYYMMDD or YYYY-MM-DD (ISO 8601)
