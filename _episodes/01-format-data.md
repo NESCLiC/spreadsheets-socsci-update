@@ -16,20 +16,21 @@ keypoints:
 ---
 ## Data formatting problems
 
+<!--
 The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers don't view information the same way, and
 unless we explain to the computer what every single thing means (and
 that can be hard!), it will not be able to see how our data fit
-together.
+together.-->
 
-Using the power of computers, we can manage and analyze data in much more
+<!--Using the power of computers, we can manage and analyze data in much more
 effective and faster ways, but to use that power, we have to set up
 our data for the computer to be able to understand it (and computers are very
-literal).
+literal).-->
 
-This is why it’s extremely important to set up well-formatted
+<!--This is why it’s extremely important to set up well-formatted
 tables from the outset - before you even start entering data from
 your very first preliminary experiment. Data organization is the
 foundation of your research project. It can make it easier or harder
@@ -39,6 +40,61 @@ experiment. You can set things up in different ways in spreadsheets,
 but some of these choices can limit your ability to work with the data in other programs or
 have the you-of-6-months-from-now or your collaborator work with the
 data.
+-->
+
+## Spreadsheet Basics
+
+You may have used spreadsheets in your research, work, or even personal life and not really considered how they work or why it is important to thoughtfully think about how they are formatted. Spreadsheet software (like Excel) allows us to use color, notes, merged cells, and other kinds of formatting to make the data human-readable, but this makes it harder or impossible for the computer to understand. In this session we will talk about some common data formatting issues and how we can avoid them so that our data is as usable and reusable as possible.
+
+### Components to know about
+
+The most basic parts of an individual spreadsheet are the columns, rows, and cells.
+
+Columns are the vertical sections of the spreadsheet labeled with letters. They should contain data that belongs to a particular variable that you are measuring (like the name of the town or number of livestock in our example. They should start with a heading that indicates what type of data and unit of measure is represented in the column. It is not good practice to rely on knowing what letter the column is, as this can change if columns are added/removed/moved. 
+
+Rows are the horizontal sections of the spreadsheet labeled with numbers. They contain all of the data for one observation, whatever that may be (in the case of our example it would be for one household). In other kinds of software these are sometimes called records. Good practice is to have at least one piece of information per observation that is unique to that particular row. 
+
+Cells are the smallest component of a spreadsheet. A cell represents the data in one variable for one unit of observation. It is identified by the column letter and row number (for example, A1 is the first cell in the first column).
+
+We're going to be working with data from a study of
+agricultural practices among farmers in two countries in eastern
+sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a little later, but for now we will look at an excerpt as an example.
+> ## Exercise
+>Consider this table:
+
+>![multiple-info example](../fig/multiple-info.png)
+
+>If we consider the best practices we talked about above one problem is that number of >livestock and type of livestock are in the same field. So, if they wanted to
+>look at the average number of livestock owned, or the average number of each type
+>of livestock, it would be hard to do this using this data setup. If instead we put the >count of each type of livestock in it's own column, this would make analysis
+>much easier. The rule of thumb, when setting up a datasheet, is that each
+>variable (in this case, each type of livestock) should have its own column,
+>each observation should have its own row, and each cell should contain only a
+>single value. 
+
+> > ## Solution
+>>The example above should look like this:
+
+>>![single-info example](../fig/single-info.png)
+
+>>Notice that this now allows us to make statements about the number of each type of
+>>animal that a farmer owns, while still allowing us to say things about the
+>>total number of livestock. All we need to do is sum the values in each row to
+>>find a total. We'll be learning how to do this computationally and reproducibly
+>>later in this workshop.
+>>Thus, the example above should look like this:
+
+>>![single-info example](../fig/single-info.png)
+
+>>Notice that this now allows us to make statements about the number of each type of
+>>animal that a farmer owns, while still allowing us to say things about the
+>>total number of livestock. All we need to do is sum the values in each row to
+>>find a total. We'll be learning how to do this computationally and reproducibly
+>>later in this workshop.
+> > 
+> {: .solution}
+{: .challenge}
+
 
 > ## Tip
 > The best layouts/formats (as well as software and
@@ -64,11 +120,9 @@ with your notes. This way the notes and data stay together.
 Put these principles in to practice today during the exercises.
 
 
-### Structuring data in spreadsheets
+<!-- ### Structuring data in spreadsheets -->
 
-
-The cardinal rules of using spreadsheet programs for data:
-
+<!--
 1. Put all your variables in columns - the thing you're measuring,
    like 'weight' or 'temperature'.
 2. Put each observation in its own row.
@@ -79,7 +133,6 @@ The cardinal rules of using spreadsheet programs for data:
 5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
    ensures that anyone can use the data, and is required by
    most data repositories.
-
 For instance, we're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). Researchers conducted
@@ -89,11 +142,8 @@ number of meals eaten per day, availability of water),
 farming practices (e.g. water usage), and assets (e.g. number of farm plots,
 number of livestock). They also recorded the dates and locations of
 each interview.
-
 If they were to keep track of the data like this:
-
 ![multiple-info example](../fig/multiple-info.png)
-
 the problem is that number of livestock and type of livestock are in
 the same field. So, if they wanted to
 look at the average number of livestock owned, or the average number of each type
@@ -104,29 +154,35 @@ much easier. The rule of thumb, when setting up a datasheet, is that each
 variable (in this case, each type of livestock) should have its own column,
 each observation should have its own row, and each cell should contain only a
 single value. Thus, the example above should look like this:
-
 ![single-info example](../fig/single-info.png)
-
 Notice that this now allows us to make statements about the number of each type of
 animal that a farmer owns, while still allowing us to say things about the
 total number of livestock. All we need to do is sum the values in each row to
 find a total. We'll be learning how to do this computationally and reproducibly
 later in this workshop.
-
-> ## Introduce the Data
+-->
+<!-- > ## Introduce the Data -->
+> ## The Data for this Exercise
 >
-> If not already discussed, introduce the dataset that will be used in this
-> lesson, and in the other Social Sciences lessons, the [Studying African
+> The dataset that will be used in this
+> lesson, and in the other Social Sciences lessons, is the [Studying African
 > Farmer-led Irrigation (SAFI)
 > Dataset](http://www.datacarpentry.org/socialsci-workshop/data).
 >
-> The data used in these lessons are taken from interviews of farmers in two
+<!--> The data used in these lessons are taken from interviews of farmers in two
 > countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These
 > interviews were conducted between November 2016 and June 2017 and probed
 > household features (e.g. construction materials used, number of household
 > members), agricultural practices (e.g. water usage), and assets (e.g. number
 > and types of livestock).
 >
+-->
+> The dataset was compiled from interviews of farmers in two
+> countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These
+> interviews were conducted between November 2016 and June 2017 and probed
+> household features (e.g. construction materials used, number of household
+> members), agricultural practices (e.g. water usage), and assets (e.g. number
+> and types of livestock).
 > This is a real dataset, however, it has been simplified for this workshop. If
 > you're interested in exploring the full dataset further, but you can download
 > it from Figshare and work with it using exactly the same tools we’ll learn
@@ -143,6 +199,20 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 > you might want to use. This can be fixed when opening LibreOffice by deselecting
 > the "semicolons" and "tabs" checkboxes.
 {: .callout}
+
+
+## Spreadsheet Best Practices Recap
+
+The cardinal rules of using spreadsheet programs for data:
+
+1. Put all your **variables** in **columns** - the thing you're measuring,
+   like 'weight' or 'temperature'.
+2. Put each **observation** in its own **row**.
+3. Don't combine multiple pieces of information in one
+   cell. Sometimes it just seems like one thing, but think if that's
+   the only way you'll want to be able to use or sort that data.
+4. Leave the raw data raw - don't change it! Save your changes in a new version of your spreadsheet
+5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is recommended/required by most data repositories.
 
 ## Exercise
 
