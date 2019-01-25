@@ -10,10 +10,9 @@ keypoints:
 - "Always copy your original spreadsheet file and work with a copy so you don't affect the raw data."
 - "Use data validation to prevent accidentally entering invalid data."
 ---
+There are techniques you can use in your spreadsheet software so that the data you enter has fewer errors related to common problems like incorrect data types, incorrect spelling, values that are out of range, or values that aren't relevant in that column. These validation rules can be helpful when you have multiple people entering data, but they should be carefully documented and anyone new to your project should still be trained on proper data entry. 
 
-When you have a well-structured data table, you can use several simple
-techniques within your spreadsheet to ensure the data you enter is
-free of errors. 
+Before adding validation rules to a spreadsheet be sure to weigh the benefits against the possible exceptions to your rules and how they may add frustration for people adding to the spreadsheet. Think through your data carefullly and anticipate that you will still need to do some quality control and clean-up at the end. 
 
 ## Validating data on input
 
