@@ -65,9 +65,9 @@ sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a littl
 >
 > ![multiple-info example](../fig/multiple-info.png)
 >
-> If we consider the best practices we talked about above one problem is that number of >livestock and type of livestock are in the same field. So, if they wanted to
+> If we consider the best practices we talked about above, one problem is that number of livestock and type of livestock are in the same field. So, if they wanted to
 > look at the average number of livestock owned, or the average number of each type
-> of livestock, it would be hard to do this using this data setup. If instead we put the >count of each type of livestock in it's own column, this would make analysis
+> of livestock, it would be hard to do this using this data setup. If instead we put the count of each type of livestock in it's own column, this would make analysis
 > much easier. The rule of thumb, when setting up a datasheet, is that each
 > variable (in this case, each type of livestock) should have its own column,
 > each observation should have its own row, and each cell should contain only a
@@ -75,15 +75,6 @@ sub-Saharan Africa (Mozambique and Tanzania). We will introduce the data a littl
 >
 > > ## Solution
 > >The example above should look like this:
-> >
-> >![single-info example](../fig/single-info.png)
-> >
-> >Notice that this now allows us to make statements about the number of each type of
-> >animal that a farmer owns, while still allowing us to say things about the
-> >total number of livestock. All we need to do is sum the values in each row to
-> >find a total. We'll be learning how to do this computationally and reproducibly
-> >later in this workshop.
-> >Thus, the example above should look like this:
 > >
 > >![single-info example](../fig/single-info.png)
 > >
@@ -205,9 +196,9 @@ The cardinal rules of using spreadsheet programs for data:
 
 ## Exercise
 
-We're going to take a messy version of the SAFI data and describe how we would clean it up.
+We're going to take a poorly-formatted version of the SAFI data and describe how we would adjust it to fit our best practices.
 >
-> 1. Download the [messy data](https://ndownloader.figshare.com/files/11502824).
+> 1. Download the [poorly formatted data](https://ndownloader.figshare.com/files/11502824).
 > 2. Open up the data in a spreadsheet program.
 > 3. Notice that there are two tabs. Two researchers conducted the interviews,
 >    one in Mozambique and the other in Tanzania. They both structured their
