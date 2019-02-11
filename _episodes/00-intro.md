@@ -66,7 +66,7 @@ may aid readability but are not easily handled by other programs
 that take our spreadsheet as an input to further analysis.
 
 Generating statistics and figures in spreadsheets, should be done with caution.
-The graphical, drag and drop nature of spreadsheet programs means that it can be very difficult, if not impossible, to replicate your steps (much less retrace anyone else’s).
+The graphical, drag-and-drop nature of spreadsheet programs means that it can be very difficult, if not impossible, to replicate your steps (much less retrace anyone else’s).
 This is particularly true if your stats or figures require complex calculations.
 Furthermore, when performing calculations in a spreadsheet, it’s easy to accidentally apply a slightly different formula to multiple adjacent cells.
 This often makes it difficult to demonstrate data quality and consistency in our analysis.
@@ -89,7 +89,6 @@ Nevertheless it is important to be aware of the limitations these data may prese
 
 > ## Exercise
 > - Have you seen a colleague do something that made you think they were a spreadsheet wizard? What was it? 
-
 {: .challenge}
 
 
