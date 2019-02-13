@@ -13,7 +13,9 @@ keypoints:
 - "There are clues in your spreadsheet software that will alert you to possible issues."
 - "You can get a sense of what might be happening by saving the data as a csv and looking at the text file."
 ---
-## Data types  
+
+##Data types  
+======
 
 
 There are two main data types in most spreadsheet software - numbers and text. There are a variety of ways that the data can come to be in the cell (direct entry, drop-down lists, formulas, etc.) but those are the two most basic types of data you will come across. We will take a moment to look further into how spreadsheet software looks at each of these types.  
