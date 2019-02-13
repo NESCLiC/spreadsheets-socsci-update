@@ -16,6 +16,7 @@ keypoints:
 
 ##Data types  
 ======
+### Keeping track of your analyses
 
 
 There are two main data types in most spreadsheet software - numbers and text. There are a variety of ways that the data can come to be in the cell (direct entry, drop-down lists, formulas, etc.) but those are the two most basic types of data you will come across. We will take a moment to look further into how spreadsheet software looks at each of these types.  
