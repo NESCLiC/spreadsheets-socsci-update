@@ -14,16 +14,13 @@ keypoints:
 - "You can get a sense of what might be happening by saving the data as a csv and looking at the text file."
 ---
 
-##Data types  
-======
-### Keeping track of your analyses
-
+## Data types  
 
 There are two main data types in most spreadsheet software - numbers and text. There are a variety of ways that the data can come to be in the cell (direct entry, drop-down lists, formulas, etc.) but those are the two most basic types of data you will come across. We will take a moment to look further into how spreadsheet software looks at each of these types.  
 
 ### Numbers  
 
-Numbers are what spreadsheet software are best at, but this can cause problems if your data don't fit into built-in models and assumptions. If you open the Format Cells window you will notice that there is a tab called Number that allows you to pick a Category. The default category is usually General, which means there is no specific format. In the case of most numeric social science data you will probably most frequently use Number, but you might also use Date. Later in the workshop we will talk about some of the ways that date formatting can cause you problems. Use any of the types beside Number with caution, as they will change how the data appears but not how it exists if you export your file in a csv or format for statistical software.   
+ Numbers are what spreadsheet software are best at, but this can cause problems if your data don't fit into built-in models and assumptions. If you open the Format Cells window you will notice that there is a tab called Number that allows you to pick a Category. The default category is usually General, which means there is no specific format. In the case of most numeric social science data you will probably most frequently use Number, but you might also use Date. Later in the workshop we will talk about some of the ways that date formatting can cause you problems. Use any of the types beside Number with caution, as they will change how the data appears but not how it exists if you export your file in a csv or format for statistical software.   
 
 A visual cue that your data are being stored as numbers is that they will be right-justified.  
 
