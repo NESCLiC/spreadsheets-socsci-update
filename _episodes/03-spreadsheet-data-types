@@ -7,13 +7,11 @@ questions:
 objectives:
 - "Recognize common spreadsheet data type issues and how to troubleshoot them."
 - "Describe common solutions for data type issues."
-
 keypoints:
 - "Sometimes the issue with with the data type, not the data."
 - "There are clues in your spreadsheet software that will alert you to possible issues."
 - "You can get a sense of what might be happening by saving the data as a csv and looking at the text file."
 ---
-
 
 ## Data types  
 
